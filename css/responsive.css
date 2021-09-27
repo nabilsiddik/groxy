@@ -1,0 +1,93 @@
+/** Medium Device **/
+@media (min-width: 992px){
+    .trending-products-for-lg{
+        display: block!important;
+    }
+    .trending-products-for-md{
+        display: none;
+    }
+    .featured-product-for-md {
+        display: none;
+    }
+}
+
+
+/** Medium Device (Tablet Device) **/
+@media (max-width: 991px){
+
+    /** Header Section **/
+    #header_section {
+        display: none;
+    }
+
+    /** Banner Section **/
+    .banner-text {
+        text-align: center;
+        padding: 0px 200px;
+    }
+    #banner_section .banner-text h1 {
+        font-size: 55px;
+    }
+    #banner_section .banner-text p {
+        font-size: 20px;
+    }
+    #banner_section .banner-text a {
+        padding: 15px 40px;
+    }
+
+    /** Category section **/ 
+    #category_section .single-category h3 {
+        font-size: 40px;
+    }
+
+     /** Trending product **/
+     .single-trending-product{
+        margin-bottom: 20px;
+    }
+
+    /** Features Section **/
+    .feature-image-box {
+        padding: 0 300px;
+        margin-bottom: 50px;
+    }
+    .features-busket {
+        margin-bottom: 70px;
+    }
+
+    /** Featured product section **/
+    .featured-product-for-lg {
+        display: none;
+    }
+
+    /** Newsletter section **/
+    
+
+    /** Footer Section **/
+    #footer_section .footer-widget, .footer-widget-one, .footer-widget-two, .footer-widget-four, #footer_section .footer-widget .footer-widget-three {
+        width: 100%;
+        text-align: center;
+        margin-top: 70px;
+    }
+    #footer_section .footer-widget, .footer-widget-one{
+        margin-top: 0;
+    }
+
+    /** Footer copyright section **/
+    #footer_section #copyright_section .copyright-text p {
+        text-align: center;
+    }
+    #footer_section #copyright_section .social-follow {
+        display: flex;
+        justify-content: center!important;
+        margin-top: 16px;
+        width: 100%;
+    }
+   
+}
+
+/** Small Device (Mobile Device) **/
+@media (max-width: 767px){
+    .banner-text {
+        padding: 0px 70px;
+    }
+}
